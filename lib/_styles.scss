@@ -1,0 +1,84 @@
+/*
+These are the default styles for Mobile, IE6 to 8.
+This is where we place our website styles
+We are developing this website mobile-first and using adaptive design as well.
+*/
+
+// # INDEXPAGE
+
+// ## Header
+
+header {
+	background-color:$white;
+
+	margin:0 auto;
+	max-width:700px;
+	padding:30px 3% 0px;
+
+	img {
+		display:block;
+		margin:0 auto;
+	}
+}
+
+// ## Body
+
+body {
+
+	padding:3%;
+	background-color:$cuckoobeeBabyBlue;
+
+	h1 {
+		text-align:center;
+	}
+
+	h1.title {
+		padding-bottom:30px;
+	}
+
+	}
+
+div.body {
+	padding:3%;
+	background-color:$white;
+	margin:0 auto;
+	max-width:700px;
+
+	ul#menu {
+		text-align: center;
+
+	  	li 	{
+	  		text-align: center;
+ 		display: inline-block;
+
+	  	}
+   	}
+
+   	img {
+	   	margin: 15px 0;
+   	}
+
+	iframe {
+		display:block;
+		margin: 0 auto;
+	}
+
+}
+
+article {
+
+	div.getty {
+		margin:0 auto;
+		display:block;
+	}
+
+}
+
+// ## Footer
+
+// # INSIDE PAGE TEMPLATE
+
+// Media Queries
+
+@media all and (max-width:$femto) {@import "style/2femto";}
+@media all and (min-width:481px) and (max-width:$nano) {@import "style/3pico";}
